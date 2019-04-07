@@ -152,6 +152,54 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-suipi" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="vue"><a href="#vue" class="headerlink" title="vue"></a>vue</h3><h4 id="router-link-渲染出来的a标签有默认的下划线，"><a href="#router-link-渲染出来的a标签有默认的下划线，" class="headerlink" title="router-link 渲染出来的a标签有默认的下划线，"></a>router-link 渲染出来的a标签有默认的下划线，</h4><p>使用<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a &#123;</span><br><span class="line">    text-decoraction: none;</span><br><span class="line">&#125;</span><br><span class="line">.router-link-active &#123;</span><br><span class="line">    text-decoration: none;</span><br><span class="line">&#125;</span><br><span class="line">去掉</span><br></pre></td></tr></table></figure></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/04/07/suipi/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-interviewquestion_css" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -172,13 +220,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>1.<strong> 父级div定义伪类： after 和 zoom </strong></p>
+        <p>1.父级div定义伪类： after 和 zoom </p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"> </span></span><br><span class="line"><span class="undefined">   .div1&#123;background:#000080;border:1px solid red;&#125;</span></span><br><span class="line"><span class="undefined">   .div2&#123;background:#800080;border:1px solid red;height:100px;margin-top:10px&#125;</span></span><br><span class="line"><span class="undefined">   </span></span><br><span class="line"><span class="undefined">   .left&#123;float:left;width:20%;height:200px;background:#DDD&#125;</span></span><br><span class="line"><span class="undefined">   .right&#123;float:right;width:30%;height:80px;background:#DDD&#125;</span></span><br><span class="line"><span class="undefined">   </span></span><br><span class="line"><span class="undefined">   /*清除浮动代码*/</span></span><br><span class="line"><span class="undefined">   .clearfloat:after&#123;display:block;clear:both;content:"";visibility:hidden;height:0&#125;</span></span><br><span class="line"><span class="undefined">   .clearfloat&#123;zoom:1&#125;</span></span><br><span class="line"><span class="undefined">   </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div1 clearfloat"</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span>Left<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span>Right<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div2"</span>&gt;</span></span><br><span class="line">   div2</span><br><span class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p><strong> 2.在结尾处加空div标签 clear：both </strong></p>
+<p> 2.在结尾处加空div标签 clear：both **</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"> </span></span><br><span class="line"><span class="undefined">   .div1&#123;background:#000080;border:1px solid red&#125;</span></span><br><span class="line"><span class="undefined">   .div2&#123;background:#800080;border:1px solid red;height:100px;margin-top:10px&#125;</span></span><br><span class="line"><span class="undefined">   </span></span><br><span class="line"><span class="undefined">   .left&#123;float:left;width:20%;height:200px;background:#DDD&#125;</span></span><br><span class="line"><span class="undefined">   .right&#123;float:right;width:30%;height:80px;background:#DDD&#125;</span></span><br><span class="line"><span class="undefined">   </span></span><br><span class="line"><span class="undefined">   /*清除浮动代码*/</span></span><br><span class="line"><span class="undefined">   .clearfloat&#123;clear:both&#125;</span></span><br><span class="line"><span class="undefined">   </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div1"</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span>Left<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span>Right<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"clearfloat"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div2"</span>&gt;</span></span><br><span class="line">   div2</span><br><span class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>   **3.给父级div定义height</p>
-   <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">   <span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"> </span></span><br><span class="line"><span class="undefined">   .div1&#123;background:#000080;border:1px solid red;/*解决代码*/height:200px;&#125;</span></span><br><span class="line"><span class="undefined">   .div2&#123;background:#800080;border:1px solid red;height:100px;margin-top:10px&#125;</span></span><br><span class="line"><span class="undefined">   </span></span><br><span class="line"><span class="undefined">   .left&#123;float:left;width:20%;height:200px;background:#DDD&#125;</span></span><br><span class="line"><span class="undefined">   .right&#123;float:right;width:30%;height:80px;background:#DDD&#125;</span></span><br><span class="line"><span class="undefined">   </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div1"</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span>Left<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span>Right<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div2"</span>&gt;</span></span><br><span class="line">   div2</span><br><span class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
+<p>  3.给父级div定义height</p>
+   <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"> </span></span><br><span class="line"><span class="undefined">.div1&#123;background:#000080;border:1px solid red;/*解决代码*/height:200px;&#125;</span></span><br><span class="line"><span class="undefined">.div2&#123;background:#800080;border:1px solid red;height:100px;margin-top:10px&#125;</span></span><br><span class="line"><span class="undefined"></span></span><br><span class="line"><span class="undefined">.left&#123;float:left;width:20%;height:200px;background:#DDD&#125;</span></span><br><span class="line"><span class="undefined">.right&#123;float:right;width:30%;height:80px;background:#DDD&#125;</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div1"</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span>Left<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span>Right<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div2"</span>&gt;</span></span><br><span class="line">   div2</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
       
 
       
